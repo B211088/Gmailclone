@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">    
+    <title>Gmail</title>
+</head>
+<body>
+    <header id="header">
+        <div class="header__container">
+            <div class="header__nemu-logo">
+                <div class="header_menu"><i class="header-logo--icon fa-solid fa-bars"></i></div>
+                <div class="header__logo">
+                    <a href="#">
+                        <img class="logo-img" src="./assets/img/gmail.png" alt="">
+                        <span class="logo-gmail-text">Gmail</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="header__search-setting">
+                <div class="header__search">
+                    <div class="header__search-wrapper">
+                        <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <input type="text"  class="search-input" placeholder="Tìm kiếm trong thư">
+                        <div class="search-remove none-block"><i class="remove-icon fa-solid fa-xmark"></i></div>
+                        <div class="search-option"><i class="fa-solid fa-sliders"></i></div>
+                    </div>
+                </div>
+
+                <div class="header__help-setting">
+                    <div class="header__help"><i class="sidebar-help-icon fa-regular fa-circle-question"></i></div>
+                    <div class="header__setting"><i class="fa-solid fa-gear"></i></div>
+                </div>
+            </div>
+
+            <div class="header__applications-user">
+                <div class="header__applications">
+                    <div class="icon-application-group">
+                        <i class="icon-grid fa-solid fa-ellipsis-vertical "></i>
+                        <i class="icon-grid fa-solid fa-ellipsis-vertical"></i>
+                        <i class="icon-grid fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                
+                <div class="header__user">
+                    <img class="user-avt" src="./assets/img/Aino.png" alt="">
+                    <div class="user-modal">
+                        <h3 class="user-modal-name">kimngoctan002@gmail.com</h3>
+                        <div class="user-modal-avt"><img class="user-modal-avt" src="./assets/img/Aino.png" alt=""></div>
+                        <div class="user-modal-welcome">Chào Tân,</div>
+                        <button class="user-modal-maneger">
+                            Quản lý tài khoản của bạn
+                        </button>
+                        <div class="user-modal-selections">
+                            <div class="user-modal-add"><span class="user-add-button"><i class="user-add-icon fa-solid fa-plus"></i>Thêm tài khoản</span></div>
+                            <div class="user-modal-logout"><span class="user-logout-button"><i class=" user-logout-icon fa-solid fa-arrow-right-from-bracket"></i>Đăng xuất</span></div>
+                        </div>
+    
+                        <div class="user-modal-docs">
+                            <span class="user-docs-policy">Chính sách quyền riêng tư</span>
+                            <span class="dosc-dost">.</span>
+                            <span class="user-docs-rules">Điều khoản dịch vụ</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main id="main">
+        <div class="main__sidebar">
+            <div class="sidebar__container">
+                <div class="sidebar-compose">
+                    <div class="compose-box">
+                        <i class="compose-icon fa-solid fa-pencil"></i>
+                        <span class="compose-title">Soạn thư</span>
+                    </div>
+                </div>
+                <div class="sidebar-menu">
+                    <ul class="sidebar-list">
+                        <li class="sidebar-item active-item have-quanlity">
+                            <i class=" item-siderbar-icon sidebar-item-icon fa-regular fa-envelope"></i>
+                            <div class="sidebar-item-title-siderbar">
+                                <span class="item-title-siderbar">Hộp thư đến</span>
+                                <span class="item-quantity">99</span>
+                            </div>
+                        </li>
+                        <li class="sidebar-item">
+                            <i class="item-siderbar-icon sidebar-item-icon fa-regular fa-star"></i>
+                            <div class="sidebar-item-title-siderbar">
+                                <span class="item-title-siderbar">Có gắn dấu sao</span>
+                            </div>
+                        </li>
+                        <li class="sidebar-item">
+                            <i class="item-siderbar-icon sidebar-item-icon fa-regular fa-clock"></i>
+                            <div class="sidebar-item-title-siderbar">
+                                <span class="item-title-siderbar">Đã tạm ẩn</span>
+                            </div>
+                        </li>
+                        <li class="sidebar-item have-quanlity">
+                            <i class="item-siderbar-icon sidebar-item-icon fa-regular fa-paper-plane"></i>
+                            <div class="sidebar-item-title-siderbar ">
+                                <span class="item-title-siderbar">Đã gửi</span>
+                                <span class="item-quantity">10</span>
+                            </div>
+                        </li>
+                        <li class="sidebar-item">
+                            <i class="item-siderbar-icon sidebar-item-icon fa-regular fa-file">
+                                
+                            </i><div class="sidebar-item-title-siderbar">
+                                <span class="item-title-siderbar">Thư pháp</span>
+                            </div>
+                        </li>
+                        <li class="sidebar-item">
+                            <i class="item-siderbar-icon sidebar-item-icon fa-solid fa-angle-down"></i>
+                            <div class="sidebar-item-title-siderbar">
+                                <span class="item-title-siderbar">Danh sách mở rộng</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sidebar-label">
+                    <div class="label-content">
+                        <span>Nhãn</span>
+                        <i class="ladel-icon fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__content">
+            <div class="content-toolbar">
+                <div class="toolbar-container">
+                    <div class="toolbar-left">
+                        <div class="toolbar-selection">
+                            <div class="selection-all-box">
+                                <input class="selection-all" type="checkbox">
+                            </div>
+                            <div class="selection-arrow">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                        <div class="toolbar-reload">
+                            <div class="toolbar-reload-pesudo">
+                                <i class="fa-solid fa-arrow-rotate-right"></i>
+                            </div>
+   
+                        </div>
+                        <div class="toolbar-option">
+                            <div class="toolbar-option-pesudo">
+                                <i class=" fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="toolbar-right">
+                        <div class="toolbar-page">
+                            <div class="toolbar-page-quanlity">1-50 trong số 142</div>
+                            <div class="toolbar-transfer-page">
+                                <div class="prev-page"><i class="fa-solid fa-angle-left"></i></div>
+                                <div class="next-page"><i class="fa-solid fa-angle-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="toolbar-language">
+                            <div class="language-char-pesudo">
+                                <i class="language-char fa-solid fa-e"></i>
+                            </div>
+                            <div class="list-language-pesudo">
+                                <i class="list-language fa-solid fa-caret-down"></i>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__content-container">
+                <div class="main__hero">
+                    <div class="main_hero-pesudo">
+                        <div class="hero__mailbox active-mailbox">
+                            <div class="mailbox-icon">
+                                <div class="mailbox-pesudo-icon">
+                                    <i class="mail-icon fa-regular fa-envelope"></i>
+                                </div>
+                            </div>
+                            <div class="mailbox-title">
+                                <div class="mailbox-pesudo-title">
+                                    <span>Chính</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero__adverbox">
+                            <div class="adverbox-icon">
+                                <div class="adverbox-pesudo-icon">
+                                    <i class="fa-solid fa-tag"></i>
+                                </div>
+                            </div>
+                            <div class="adverbox-content">
+                                <div class="averbox-title">
+                                    <div class="adverbox-tag"><span>Quảng cáo</span></div>
+                                    <div class="adverbox-inbox"><span>50 cuộc trò chuyện mới</span></div>
+                                </div>
+                                <div class="averbox-decription">
+                                    <span>Apple,Facebook,App Store,Facebook</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero__socialbox">
+                            <div class="socialbox-icon">
+                                <div class="socialbox-pesudo-icon">
+                                    <i class="fa-solid fa-user-group"></i>
+                                </div>
+                            </div>
+                            <div class="socialbox-content">
+                                <div class="socialbox-title">
+                                    <div class="socialbox-tag"><span>Mạng xã hội</span></div>
+                                    <div class="socialbox-inbox">50 Cuộc trò chuyện mới</div>
+                                </div>
+                                <div class="socialbox-decription">
+                                    <span>Facebook,Tiktok,Telegram,Twitter, Telegram</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="main__mail-list">
+                    <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+                    <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+                    <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+                    <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+                    <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+                    <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+                    <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+                    <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+                    <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+
+                     <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+                     <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+                     <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+                     <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+                     <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+                    <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+                    <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+                    <li class="mail-item">
+                        <div class="mail-item-checkbox">
+                            <div class="mail-item-checkbox-pesudo">
+                               <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="mail-item-star">
+                            <div class="mail-item-star-pesudo">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mail-item-brand">
+                            <span>Apple</span>
+                        </div>
+                        <div class="mail-item-content">
+                                <span class="item-messege"><span class="item-title"> iPhone 15 Pro và iPhone 15 đã có mặt</span> - Từ 28.999.000đ hoặc 1.181.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm Từ 22.999.000đ hoặc 936.000đ/tháng trong 24 tháng 1 Mua Tìm hiểu thêm iPhone nào phù hợp với bạn? So sánh tất cả các phiên bản</span>
+                        </div>
+                        <div class="mail-item-date">
+                            <span>20 thg 10</span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+           
+        </div>
+        <div class="main-taskbar">
+            <div class="taskbar-container">
+                <div class="taskbar-calendar">
+                    <div class="taskbar-calendar-pesudo">
+                        <img class="taskbar-calendar-img" src="./assets/img/google-calendar.png" alt="">
+                    </div>
+                </div>
+                <div class="taskbar-keeps">
+                    <div class="taskbar-keeps-pesudo">
+                        <img class="taskbar-keeps-img" src="./assets/img/google-keep.png" alt="">
+                    </div>
+                </div>
+
+                <div class="taskbar-tasks">
+                    <div class="taskbar-tasks-pesudo">
+                        <img class="taskbar-tasks-img" src="./assets/img/ticks.png" alt="">
+                    </div>
+                </div>
+
+                <div class="taskbar-users">
+                    <div class="taskbar-users-pesudo">
+                        <img class="taskbar-users-img" src="./assets/img/person.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="taskbar-utilities">
+                <div class="taskbar-utilities-pesudo">
+                    <i class="taskbar-utilities-icon fa-solid fa-plus"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./assets/js/filescript.js"></script>
+</body>
+</html>
